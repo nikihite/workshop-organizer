@@ -32,6 +32,7 @@ header {
 main {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 div {
@@ -49,4 +50,13 @@ button {
     border-radius: 50px;
     width: 100px;
     height: 30px;
+}
+
+#participate {
+    width: 150px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
 }
