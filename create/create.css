@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300&display=swap');
 
 body {
-    font-family: 'Londrina Shadow', cursive;
+    font-family: 'Overpass Mono', monospace;
 }
 
 main {

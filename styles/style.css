@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300&display=swap');
 
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
@@ -13,7 +13,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Londrina Shadow', cursive;
+    font-family: 'Overpass Mono', monospace;
     background-color: powderblue;
 }
 
