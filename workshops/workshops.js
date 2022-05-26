@@ -4,9 +4,14 @@ import { renderWorkshop } from '../render-utils.js';
 checkAuth();
 
 const logoutButton = document.getElementById('logout');
+const participateBtn = document.getElementById('participate');
 
 logoutButton.addEventListener('click', () => {
     logout();
+});
+
+participateBtn.addEventListener('click', () => {
+    window.location.href = '/create/index.html';
 });
 
 async function displayWorkshops() {

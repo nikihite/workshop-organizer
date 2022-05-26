@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+
+body {
+    font-family: 'Londrina Shadow', cursive;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#new-participant {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
