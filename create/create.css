@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300&display=swap');
+
+body {
+    font-family: 'Overpass Mono', monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#new-participant {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#workshops {
+    font-size: 30px;
+}
