@@ -13,7 +13,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Overpass Mono', monospace;
+font-family: 'Overpass Mono', monospace;
     background-color: powderblue;
 }
 
@@ -157,4 +157,12 @@ button {
 
 button:hover {
     background-color: lightcoral;
+}
+
+#sign-up {
+    align-items: center;
+}
+
+#sign-in {
+    align-items: center;
 }
