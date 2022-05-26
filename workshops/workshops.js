@@ -1,13 +1,20 @@
-import { getWorkshops, deleteParticipant } from '../fetch-utils.js';
+import { getWorkshops, deleteParticipant, checkAuth, logout } from '../fetch-utils.js';
 import { renderWorkshop } from '../render-utils.js';
+
+checkAuth();
+
+const logoutButton = document.getElementById('logout');
+
+logoutButton.addEventListener('click', () => {
+    logout();
+});
 
 async function displayWorkshops() {
     const main = document.querySelector('main');
     main.textContent = '';
     const data = await getWorkshops();
     for (let workshop of data) {
-        const workshopElem = renderWorkshop(workshop); // div
-
+        const workshopElem = renderWorkshop(workshop);
         const ul = document.createElement('ul');
         
         for (let participant of workshop.participants) {
