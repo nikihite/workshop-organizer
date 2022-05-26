@@ -41,21 +41,26 @@ div {
 }
 
 button {
-    font-size: 20px;
+    font-size: 30px;
     background-color: var(--prussian-blue);
     border: 0px;
     border-radius: 50px;
-    width: 100px;
-    height: 30px;
+    width: 130px;
+    height: 50px;
     margin: 20px;
     color: white;
 }
 
 #participate {
-    width: 150px;
+    width: 170px;
 }
 
 section {
     display: flex;
     justify-content: center;
+}
+
+ul {
+    color: var(--imperial-red);
+    font-weight: bolder;
 }
